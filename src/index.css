@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+    --surface-canvas: #FAF9F6;
+    --surface-subtle: #F4F5F7;
+    --surface-card: #FFFFFF;
+    --border-muted: #E2E8F0;
+    --border-strong: #CBD5E1;
+    --text-primary: #0F172A;
+    --text-secondary: #475569;
+    --text-tertiary: #64748B;
+    --primary: #0D2137;
+    --secondary: #1E3A8A;
+    --verified: #059669;
+    --verified-bg: #ECFDF5;
+    --heritage-amber: #D97706;
+    --heritage-amber-bg: #FFFBEB;
+    --alert-critical: #B91C1C;
+    --alert-critical-bg: #FEF2F2;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--surface-canvas);
+    color: var(--text-primary);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--surface-canvas);
+    color: var(--text-primary);
+    line-height: 1.5;
+  }
+
+  /* Civic Horizon accessible focus ring specification */
+  *:focus-visible {
+    outline: 2px solid #1E3A8A;
+    outline-offset: 2px;
+  }
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "CPGRAMS 2036 — Citizen Resolution Companion",
+  "description": "A future-ready, citizen-first public grievance resolution companion designed to help citizens understand options, prepare grievances, and navigate resolution pathways without needing to know government machinery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

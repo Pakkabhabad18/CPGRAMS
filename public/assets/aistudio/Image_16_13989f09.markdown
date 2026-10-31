@@ -1,0 +1,222 @@
+---
+name: Civic Horizon
+colors:
+  surface: '#faf9f6'
+  surface-dim: '#dbdad7'
+  surface-bright: '#faf9f6'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f4f3f1'
+  surface-container: '#efeeeb'
+  surface-container-high: '#e9e8e5'
+  surface-container-highest: '#e3e2e0'
+  on-surface: '#1a1c1a'
+  on-surface-variant: '#44474d'
+  inverse-surface: '#2f312f'
+  inverse-on-surface: '#f2f1ee'
+  outline: '#74777d'
+  outline-variant: '#c4c6cd'
+  surface-tint: '#4d6079'
+  primary: '#000917'
+  on-primary: '#ffffff'
+  primary-container: '#0d2137'
+  on-primary-container: '#7689a4'
+  inverse-primary: '#b5c8e5'
+  secondary: '#4059aa'
+  on-secondary: '#ffffff'
+  secondary-container: '#8fa7fe'
+  on-secondary-container: '#1d3989'
+  tertiary: '#000a08'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#002521'
+  on-tertiary-container: '#17988b'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#d2e4ff'
+  primary-fixed-dim: '#b5c8e5'
+  on-primary-fixed: '#081c32'
+  on-primary-fixed-variant: '#364860'
+  secondary-fixed: '#dce1ff'
+  secondary-fixed-dim: '#b6c4ff'
+  on-secondary-fixed: '#00164e'
+  on-secondary-fixed-variant: '#264191'
+  tertiary-fixed: '#89f5e7'
+  tertiary-fixed-dim: '#6bd8cb'
+  on-tertiary-fixed: '#00201d'
+  on-tertiary-fixed-variant: '#005049'
+  background: '#faf9f6'
+  on-background: '#1a1c1a'
+  surface-variant: '#e3e2e0'
+  surface-canvas: '#FAF9F6'
+  surface-subtle: '#F4F5F7'
+  surface-card: '#FFFFFF'
+  border-muted: '#E2E8F0'
+  border-strong: '#CBD5E1'
+  text-primary: '#0F172A'
+  text-secondary: '#475569'
+  text-tertiary: '#64748B'
+  status-verified: '#059669'
+  status-verified-bg: '#ECFDF5'
+  heritage-amber: '#D97706'
+  heritage-amber-bg: '#FFFBEB'
+  alert-critical: '#B91C1C'
+  alert-critical-bg: '#FEF2F2'
+typography:
+  display-lg:
+    fontFamily: Public Sans
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Public Sans
+    fontSize: 30px
+    fontWeight: '700'
+    lineHeight: 38px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Public Sans
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Public Sans
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+  headline-sm:
+    fontFamily: Public Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Public Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Public Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Public Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Public Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Public Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Public Sans
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  code-md:
+    fontFamily: Public Sans
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  margin-desktop: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system establishes a high-trust, calm, and deeply accessible public infrastructure environment for civic governance. Departing from bureaucratic clutter, it balances modern institutional authority with citizen empathy. The aesthetic marries architectural restraint with rigorous clarity—eschewing neon gimmicks, heavy glassmorphism, or trend-driven ornamentation in favor of purposeful whitespace, crisp typographic hierarchy, and rock-solid accessibility.
+
+The core target audience spans the entire civic demographic: diverse citizens lodging urgent grievances, administrative redress officers auditing resolutions, and public ombudsmen tracking ministerial service-level agreements. The interface evokes steady institutional reliability, absolute procedural transparency, dignity, and immediate legibility under stress or low-bandwidth conditions.
+
+## Colors
+
+The color system anchors around `primary_color_hex` (`#0D2137`), a dignified deep navy that communicates sovereign gravity, paired with `secondary_color_hex` (`#1E3A8A`) for interactive wayfinding and secondary civic tiers. The canvas rests on warm, low-fatigue natural neutrals (`#FAF9F6` and `#F4F5F7`), ensuring long-form intake forms and audit ledgers remain comfortable to read.
+
+Accents are restrained and functional:
+- **Verified / Resolved:** Emerald teal (`#0D9488` and `#059669`) designates institutional sign-offs, solved grievances, and verified citizen credentials.
+- **Civic Attention / Heritage:** Warm saffron/amber (`#D97706`) is reserved for critical status checkpoints, citizen review prompts, and SLA deadlines. It provides a dignified visual nod to civic heritage without decorative noise.
+- **Contrast Integrity:** All text-to-background combinations comply strictly with WCAG 2.2 AAA thresholds for core content and AA for secondary captions.
+
+## Typography
+
+The design system standardizes on **Public Sans**, an open, institutional typeface designed specifically for rigorous public sector legibility and cross-platform clarity. 
+
+- **Readability & Weight Distribution:** Heading structures avoid ultra-thin or ultra-black cuts; they use 600 (Semibold) and 700 (Bold) to preserve crisp stroke definitions even on lower-grade displays or under harsh glare.
+- **Scanning Rhythm:** Long-form statements and grievance narratives utilize an open `1.5` to `1.55` line-height (`body-md` at 24px on 16px font), preventing optical eye strain during detailed case evaluations.
+- **Labels & Numbers:** Grievance registration codes, token IDs, and departmental codes use tabular numeral alignments embedded in the body and label hierarchy.
+
+## Layout & Spacing
+
+A structured 12-column responsive fluid grid governs desktop layouts, consolidating down to 8 columns on tablet devices (640px–1024px) and 4 columns on mobile viewports (<640px). Max content width is pegged at a generous yet scan-friendly 1280px to prevent excessive horizontal eye scanning.
+
+- **Rhythm Model:** Layout follows an 8pt base grid for macro structure, supported by a 4pt sub-grid for tight field couplings and inline status badges.
+- **Density Consideration:** Grievance intake forms are spacious and single-column centered to lower cognitive load for the general public. Administrative auditing dashboards and ministerial grievance feeds shift to a denser multi-column tabular grid utilizing `space-sm` and `space-md` gaps.
+- **Adaptive Spacing:** Canvas margins scale dynamically from `1rem` on narrow handheld screens to `3rem` on expansive command consoles.
+
+## Elevation & Depth
+
+Visual hierarchy uses physical clarity through low-contrast stone outlines and tonal layer staging rather than heavy drop shadows. This maintains peak contrast and ensures interfaces remain legible in varied lighting environments.
+
+- **Level 0 (Base Canvas):** `#FAF9F6`. Default surface for page canvas and overarching frame layout.
+- **Level 1 (Card & Modular Tier):** `#FFFFFF` surface bounded by a crisp 1px `#E2E8F0` border. A micro-ambient floor shadow (`0 1px 3px rgba(15, 23, 42, 0.04)`) provides tactile separation without visual weight.
+- **Level 2 (Interactive Floating / Active Drawers):** `#FFFFFF` surface with a 1px `#CBD5E1` border and structured ambient shadow (`0 4px 12px -2px rgba(15, 23, 42, 0.08)`). Used for grievance filter menus, timeline dialogs, and elevated action drawers.
+- **Level 3 (Modal & Critical Overlays):** `#FFFFFF` surface accompanied by a neutral backdrop veil (`rgba(15, 23, 42, 0.45)` blur-free).
+
+## Shapes
+
+The design system adopts a **Soft** shape archetype (`roundedness: 1`), giving interactive surfaces, cards, and modal components a controlled 0.25rem (4px) baseline radius, scaling to 0.5rem (8px) on larger container elements. 
+
+This restrained curvature projects structured institutional permanence, avoiding the toy-like informality of pill shapes while softening the harshness of raw 90-degree brutalist corners. Badges and inline status indicators retain exact matching 4px radiuses to harmonize with adjacent input fields.
+
+## Components
+
+### Buttons
+- **Primary:** Deep navy background (`#0D2137`), white label (`#FFFFFF`), 4px corner radius, padding `0.75rem 1.5rem`. Hover state transitions to `#1E3A8A`.
+- **Secondary:** Transparent background, 1px border `#CBD5E1`, text `#0D2137`. Hover state applies `#F4F5F7`.
+- **Destructive:** Deep crimson (`#B91C1C`) with white label, reserved for irreversible escalation appeals or file expungement.
+- **States:** Focus rings must render a distinct 2px outer outline in `#1E3A8A` with a 2px white offset gap, guaranteeing immediate keyboard navigability.
+
+### Input Fields & Controls
+- **Text & Textarea:** White background, 1.5px border `#CBD5E1`, internal padding `0.75rem 1rem`. Focus triggers a 1.5px solid border in `#1E3A8A` accompanied by an accessible glow ring. Helper text rests cleanly below in `#475569`.
+- **Checkboxes & Radio Buttons:** 20px x 20px hit zones, 1.5px `#CBD5E1` unselected border, switching to `#0D2137` fill upon selection with a crisp geometric white mark. Accompanied by full-width label hit targets.
+
+### Status Chips & Badges
+- **Resolved / Verified:** Background `#ECFDF5`, text `#059669`, 1px border `#A7F3D0`. Includes a fixed check icon prefix.
+- **Under Review / In Progress:** Background `#FFFBEB`, text `#D97706`, 1px border `#FDE68A`.
+- **Escalated:** Background `#FEF2F2`, text `#B91C1C`, 1px border `#FECACA`.
+
+### Cards & Container Panels
+- White background (`#FFFFFF`), 1px solid border (`#E2E8F0`), padding `1.5rem`. Header areas divide cleanly with a 1px horizontal rule. Footer action bars feature right-aligned primary and tertiary options.
+
+### Grievance Timeline Tracker
+- A vertical or horizontal stepped civic chain utilizing 2px connecting rails in `#CBD5E1`. Completed milestones render with `#0D9488` fill, active milestones feature `#D97706` pulsing rings, and pending stages display hollow `#CBD5E1` markers.
+
+### Department & Category Selectors
+- Modular segmented cards featuring a subtle left border strip (3px solid `#1E3A8A`) to denote active selection, keeping operational pathways unambiguous for citizens of all literacy levels.
